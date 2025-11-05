@@ -1,0 +1,56 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333;
+}
+
+/* Header and Navigation */
+.site-header {
+    background-color: #0f172a; /* Dark background similar to your profile */
+    color: white;
+    padding: 1rem 0;
+    border-bottom: 3px solid #60a5fa; /* Blue accent line */
+}
+
+.main-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nav-link:hover {
+    color: #a5f060;
+}
+
+/* Main Content Wrapper */
+.page-wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    color: #60a5fa;
+    margin-bottom: 0.5rem;
+}
